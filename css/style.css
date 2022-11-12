@@ -1,0 +1,46 @@
+body {
+  background-image: url(../image/bcc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nv-br {
+  color: #007f36;
+  font-size: 30px;
+}
+
+.nv-br,
+.nav-item a {
+  font-family: "Arialle", sans-serif;
+  font-weight: normal;
+}
+
+.nav-item a {
+  color: rgb(29, 28, 28);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #007f36;
+}
+
+.home {
+  background: linear-gradient(
+      rgba(211, 223, 223, 0.205),
+      rgba(211, 223, 223, 0.205)
+    ),
+    url(../image/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 85vh;
+  width: 100%;
+}
