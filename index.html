@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="dist/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="dist/fullpage/fullpage.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>My Portfolio</title>
   </head>
@@ -14,7 +15,7 @@
       <nav class="navbar fixed-top navbar-expand-md bg-light">
         <div class="container-lg">
           <a href="#" class="navbar-brand text-left nv-br">
-            <strong>PORTFOLIO</strong>
+            <strong>ANGIE</strong>
           </a>
           <button
             class="navbar-toggler"
@@ -50,9 +51,63 @@
       </nav>
     </header>
     <br /><br />
-    <div class="container-fluid home">
-      <div class="container"></div>
+    <div id="fullpage">
+      <div class="spacey container-fluid section" id="spacey">
+        <div class="container"></div>
+      </div>
+      <div class="container-fluid home section" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 align-content-center">
+              <img src="./image/yeah.png" alt="profpic" />
+            </div>
+            <div class="col-md-7 text-white">
+              <h1>Hello, I'm <strong>Angelica</strong></h1>
+              <h2 class="text-uppercase">I'm a Web Developer</h2>
+              <blockquote class="text-uppercase">
+                "I love to discover new things specially about web development
+                <br />
+                and i want to be a full stack web developer."
+              </blockquote>
+              <div>
+                <a
+                  href="#contact"
+                  class="btn rounded-pill btn-primary col-md-3"
+                  style="
+                    background-color: #7ed957;
+                    border: none;
+                    color: black;
+                    font-weight: bold;
+                  "
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid about mt-5 section" id="about">
+        <div class="container">
+          <h1 class="text-center">About Me</h1>
+        </div>
+      </div>
+      <div class="container-fluid resume mt-5 section" id="resume">
+        <div class="container">
+          <h1 class="text-center">RESUME</h1>
+        </div>
+      </div>
+      <div class="container-fluid portfolio mt-5 section" id="portfolio">
+        <div class="container">
+          <h1 class="text-center">Portfolio</h1>
+        </div>
+      </div>
+      <div class="container-fluid contact mt-5 section" id="contact">
+        <div class="container">
+          <h1 class="text-center">Contact</h1>
+        </div>
+      </div>
     </div>
     <script src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dist/fullpage/fullpage.js"></script>
   </body>
 </html>
