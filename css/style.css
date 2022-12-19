@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .nv-br {
@@ -72,6 +73,11 @@ body {
   font-size: 60px;
 }
 
+.home .row h1 strong:hover {
+  color: #7ed957;
+  transition: 0.5s ease-in-out;
+}
+
 .home .row img {
   width: 100%;
   height: 100%;
@@ -83,7 +89,7 @@ body {
 
 .about .container {
   padding-top: 5%;
-  background: #72cc99;
+  background: #d7e1ee;
   height: 80vh;
 }
 
@@ -100,4 +106,170 @@ body {
 .contact {
   height: 85vh;
   width: 100%;
+}
+
+.bout-me {
+  background-color: #b8deba;
+  /* height: 380px; */
+  width: 90%;
+}
+
+.bout-me h1 {
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+}
+
+.bout-me h5 {
+  text-align: justify;
+}
+
+.skill h4 {
+  background-color: #b8deba;
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+}
+
+.resrow {
+  background-color: #d7efde;
+  text-align: center;
+}
+
+#dcv {
+  background-color: #7ed957;
+  text-align: center;
+  border: none;
+  color: white;
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#dcv:hover {
+  background-color: #007f36;
+  transition: 0.5s ease-in-out;
+  box-shadow: 5px 5px 5px #7ed957;
+}
+
+.resume {
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+}
+
+.resrow h4 {
+  font-weight: bold;
+}
+
+.portfolio {
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  border: #007f36 3px solid;
+  border-bottom: none;
+  /* position: relative; */
+}
+
+.img-text {
+  font-size: 20px;
+  color: #007f36;
+  font-weight: bold;
+  border: #007f36 3px solid;
+  border-top: none;
+  padding: 3px auto;
+}
+
+.pfrow {
+  background: url(../image/green.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pfrow a {
+  text-decoration: none;
+  color: black;
+}
+
+.pfrow a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  color: #007f36;
+}
+
+.contact {
+  font-family: "Arialle", sans-serif;
+  font-weight: bold;
+}
+
+.contact .row {
+  background-color: #dcdddd;
+  border-radius: 20px;
+}
+
+.touch3 {
+  font-size: large;
+}
+
+.touch3 i {
+  color: #007f36;
+}
+
+.brands i {
+  color: #007f36;
+  font-size: 50px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007f36;
+}
+
+.form-input {
+  width: 90%;
+  padding: 3px 4px;
+  border-radius: 50px;
+  height: 40px;
+  /* border: 1px solid #007f36; */
+  background-color: #7ed957;
+  border: none;
+  font-style: italic;
+}
+
+.form-textarea {
+  width: 90%;
+  padding: 3px 4px;
+  border-radius: 20px;
+  /* height: 40px; */
+  /* border: 1px solid #007f36; */
+  background-color: #7ed957;
+  border: none;
+  font-style: italic;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  padding-left: 10px;
+  font-style: italic;
+}
+
+button[type="submit"] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 5px auto 3px auto;
+  cursor: pointer;
+  border-radius: 50px;
 }
