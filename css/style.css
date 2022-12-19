@@ -8,12 +8,28 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  position: relative;
+  /* position: relative; */
+  display: block;
 }
 
 .nv-br {
   color: #007f36;
   font-size: 30px;
+}
+
+.cme {
+  background-color: #7ed957;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Arialle", sans-serif;
+}
+.cme:hover {
+  background-color: #007f36;
+  transition: 0.5s ease-in-out;
+  /* box-shadow: 5px 5px 5px #7ed957; */
+  color: white;
 }
 
 .nv-br,
@@ -112,6 +128,7 @@ body {
   background-color: #b8deba;
   /* height: 380px; */
   width: 90%;
+  margin-left: 3rem;
 }
 
 .bout-me h1 {
@@ -121,6 +138,10 @@ body {
 
 .bout-me h5 {
   text-align: justify;
+}
+
+.skill {
+  padding-right: 3rem;
 }
 
 .skill h4 {
@@ -138,7 +159,7 @@ body {
   background-color: #7ed957;
   text-align: center;
   border: none;
-  color: white;
+  color: #005c28;
   font-family: "Arialle", sans-serif;
   font-weight: bold;
   font-size: larger;
@@ -148,6 +169,7 @@ body {
   background-color: #007f36;
   transition: 0.5s ease-in-out;
   box-shadow: 5px 5px 5px #7ed957;
+  color: white;
 }
 
 .resume {
@@ -257,6 +279,7 @@ body {
 .form-textarea::placeholder {
   padding-left: 10px;
   font-style: italic;
+  color: black;
 }
 
 button[type="submit"] {
@@ -272,4 +295,169 @@ button[type="submit"] {
   margin: 5px auto 3px auto;
   cursor: pointer;
   border-radius: 50px;
+}
+
+.resrow img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+/* on small screens */
+@media only screen and (max-width: 600px) {
+  .home .row h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .home {
+    height: 80vh;
+  }
+
+  .home h2 {
+    font-size: 30px;
+  }
+
+  .home blockquote {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .cme {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about .container {
+    height: 100%;
+    padding: 0;
+    margin-bottom: 250px;
+  }
+
+  .about .row .skill {
+    margin-bottom: 250px;
+  }
+
+  .boutsm {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bout-me {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bout-me div h1 {
+    font-size: 20px;
+    /* text-align: center; */
+  }
+  .bout-me h5 {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  .skill {
+    display: none;
+    /* margin-bottom: 200px; */
+  }
+
+  .resume {
+    margin-top: 250px;
+    margin-bottom: 200px;
+  }
+
+  .resrow h4 {
+    font-size: 20px;
+  }
+
+  .resrow img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .resrow {
+    font-size: 15px;
+  }
+  .portfolio img {
+    height: 150px;
+  }
+
+  .portfolio {
+    margin-bottom: 200px;
+  }
+
+  .pfrow {
+    margin-bottom: 200px;
+  }
+
+  .img-text {
+    font-size: 15px;
+  }
+  .contact .row {
+    font-size: 15px;
+  }
+  .touch3 {
+    font-size: 15px;
+  }
+  .touch3 i {
+    font-size: 20px;
+  }
+
+  .brands i {
+    font-size: 40px;
+  }
+
+  .contact h1 {
+    display: none;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 3px 4px;
+    border-radius: 50px;
+    height: 40px;
+    /* border: 1px solid #007f36; */
+    background-color: #7ed957;
+    border: none;
+    font-style: italic;
+  }
+  .form-textarea {
+    width: 100%;
+    padding: 3px 4px;
+    border-radius: 20px;
+    /* height: 40px; */
+    /* border: 1px solid #007f36; */
+    background-color: #7ed957;
+    border: none;
+    font-style: italic;
+  }
+  .form-input::placeholder,
+  .form-textarea::placeholder {
+    padding-left: 10px;
+    font-style: italic;
+    color: black;
+  }
+  .form-message button[type="submit"] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    /* margin-bottom: 50px; */
+    margin: 50px auto 50px auto;
+    width: 100%;
+  }
+
+  .form-message h4 {
+    text-align: center;
+  }
 }
