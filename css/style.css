@@ -303,7 +303,7 @@ button[type="submit"] {
 }
 
 /* on small screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
   .home .row h1 {
     font-size: 50px;
     text-align: center;
@@ -316,7 +316,7 @@ button[type="submit"] {
   }
 
   .home h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .home blockquote {
@@ -366,7 +366,7 @@ button[type="submit"] {
 
   .resume {
     margin-top: 250px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
   }
 
   .resrow h4 {
@@ -381,16 +381,23 @@ button[type="submit"] {
   .resrow {
     font-size: 15px;
   }
+
   .portfolio img {
     height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
   }
 
   .portfolio {
-    margin-bottom: 200px;
+    margin-bottom: 250px;
   }
 
   .pfrow {
     margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .img-text {
