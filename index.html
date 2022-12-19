@@ -59,14 +59,14 @@
         <div class="container">
           <div class="row align-items-center">
             <div
-              class="col-md-5 align-content-center"
+              class="d-sm-none d-md-block col-md-5 align-content-center"
               data-aos="fade-right"
               data-aos-duration="1500">
               <img src="./image/yeah.png" alt="profpic" />
             </div>
             <div class="col-md-7 text-white">
               <h1>Hello, I'm <strong>Angelica</strong></h1>
-              <h2 class="text-uppercase">I'm a Web Developer</h2>
+              <h2 class="text-uppercase">I'm <span id="type-this"> </span></h2>
               <blockquote class="text-uppercase">
                 "I love to discover new things specially about web development
                 <br />
@@ -81,6 +81,8 @@
                     border: none;
                     color: black;
                     font-weight: bold;
+                    font-size: larger;
+                    font-family: 'Arialle', sans-serif';
                   "
                   >Contact Me</a
                 >
@@ -113,7 +115,10 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-12 bout-me ms-5 ps-2">
+                  <div
+                    class="col-md-12 bout-me ms-5 ps-2"
+                    data-aos="fade-up"
+                    data-aos-duration="2000">
                     <h1 class="ms-2 mb-0 p-3">ABOUT ME</h1>
                     <h5 class="ms-2 p-3 mt-1">
                       I am a passionate college student taking up Bachelor of
@@ -320,7 +325,16 @@
     </div>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+    <script>
+      var typed = new Typed("#type-this", {
+        strings: [, "a Web Developer", "a Programmer"],
+        typeSpeed: 60,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
     <script>
       AOS.init();
     </script>
