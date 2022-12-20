@@ -317,6 +317,7 @@ button[type="submit"] {
 
   .home h2 {
     font-size: 28px;
+    text-align: center;
   }
 
   .home blockquote {
